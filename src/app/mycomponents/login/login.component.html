@@ -1,0 +1,44 @@
+<div class="login" >
+    <p id="appTitle" style="margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #77ba43;
+    background-color: #77ba43;">Gridstream MDMS</p>
+    <br><br>
+    <div align=center>
+		<p id="appTitle" class="heading">Gridstream MDMS</p>
+		<div class="panel">
+			<form #regform="ngForm" (ngSubmit)="onsubmit()">
+				<table>
+					<tbody>
+						<tr>
+							<td><label for="username">Username</label></td>
+							<td><input name="username" id="username" type="text" class="text" [(ngModel)]="data.username"></td>
+						</tr>
+						<tr>
+							<td><label for="password">Password</label></td>
+							<td><input name="password" id="password" type="password" class="text passwordText" [(ngModel)]="data.password"></td>
+						</tr>
+						
+						<tr>
+							<td colspan="2">
+								<hr></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input id="submitLogin" type="submit" class="button" value="Log In"></td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>

@@ -1,0 +1,24 @@
+<body>
+    <div style="text-align: center;">
+        <button type="button" style="height: 30px;width: 200px; margin-bottom:2%;margin-top: 2%;" (click)="goBack()">Back</button>&nbsp;&nbsp;
+        <button type="button" style="height: 30px;width: 200px; margin-bottom:2%;margin-top: 2%;" (click)="eletoexcel()">Download</button>
+    </div>
+    <table align="center" [width]="1000" #usertable>
+        <tr>
+            <td>City_Id</td>
+            <td>City</td>
+            <td>Country_Id</td>
+            <td>Last_Update</td>
+        </tr>
+        <tr *ngFor="let r of res">
+          <td>{{r.city_id}}</td>
+          <td>{{r.city}}</td>
+          <td>{{r.country_id}}</td>
+          <td>{{r.lastupdate}}</td>
+        </tr>
+    </table>
+    <div style="text-align: center;">
+    <button type="button" style="height: 30px;width: 200px; margin-bottom: 3%;margin-top: 3%;" (click)="goBack()">Back</button>&nbsp;&nbsp;
+    <button type="button" style="height: 30px;width: 200px; margin-bottom:2%;margin-top: 2%;" (click)="eletoexcel()">Download</button>
+</div>
+</body>

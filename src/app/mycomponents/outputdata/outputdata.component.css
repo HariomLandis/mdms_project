@@ -1,0 +1,16 @@
+table,tr,td{
+    text-align: center;
+    border:1px solid green
+}
+.big-image {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("http://usiadvr521298.am.bm.net:7002/mdms/mdms/BE81C0D8E23F74C8AC1EE3FEBE53D310.cache.png");
+}
+.body{
+    margin: 0px;
+}

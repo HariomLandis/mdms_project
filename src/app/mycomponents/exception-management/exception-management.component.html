@@ -1,0 +1,16 @@
+
+<form #dateform="ngForm" (ngSubmit)="onsubmit()">
+    Exceptions that occurred within a specified date range
+    <div class="row">
+    <div mat-dialog-actions align="center">
+        <label>From:&nbsp;&nbsp;</label>
+        <input type="date" class="form-control" id="from" #from="ngModel" [(ngModel)]="data.from" [ngModelOptions]="{standalone: true}">&nbsp;
+        <label>To:&nbsp;&nbsp;</label>
+        <input type="date" class="form-control" id="to" #to="ngModel" [(ngModel)]="data.to" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div mat-dialog-actions align="center">
+        <button class="btn btn-primary">Submit</button>&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-danger" [mat-dialog-close]>Close</button>
+    </div>
+</div>
+</form>

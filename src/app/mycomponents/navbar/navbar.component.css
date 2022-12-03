@@ -1,0 +1,22 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.big-image {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("http://usiadvr521298.am.bm.net:7002/mdms/mdms/BE81C0D8E23F74C8AC1EE3FEBE53D310.cache.png");
+}
+.small-image{
+    color: white;
+    height: 50vh;
+    width: 50%;
+    position: relative;
+    background-size:cover;
+    background-position:50% 50%;
+    background-image: url("http://usiadvr521298.am.bm.net:7002/mdms/mdms/0061C79009ADFF9E8A8A01839D9A8674.cache.png");
+}
